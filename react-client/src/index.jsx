@@ -17,7 +17,7 @@ class App extends React.Component {
       preload: function() {
           // This function will be executed at the beginning
           // That's where we load the images and sounds
-          game.load.image('bird', 'assets/bird.png');
+          game.load.image('bird', 'assets/frogger.png');
 
           game.load.image('pipe', 'assets/pipe.png');
       },
